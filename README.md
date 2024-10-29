@@ -1,4 +1,4 @@
-# SockBot
+# Shoebot
 ![](Videos/VID_20241027_140903_exported_2504.jpg)
 
 ## Project Overview
@@ -177,7 +177,7 @@ The model was trained to classify images into **three categories**:
 * **Slippers**  
 * **None** (anything that isn’t a shoe or slipper, in which case the robot takes no action).
 
-<img src="Videos/classes.jpg" alt="Description" width="400">
+<img src="Videos/classes.jpg" width="400">
 
 Here are the training hyperparameters:
 ```python
@@ -199,21 +199,24 @@ This augmentation process applies a series of transformations to each image to s
 
 Here’s an example of these transformations applied to one of the images:
 
-![](Videos/augmentation.png)
+<img src="Videos/augmentation.png" width="400">
+
 
 Check out Albumentations’ [demos](https://huggingface.co/spaces/qubvel-hf/albumentations-demo) for a more detailed look at how these transforms work in practice.
 
 We applied image augmentation of the images taken with the ESP32. The final dataset includes approximately 750, 1100, 500 images for Shoes, Slippers and None respectively. 
 In consequence, even with the low-quality images from the ESP32, we achieved 93%$ F_1$ score or higher for each of the classes, as measured over ~360 test set images.
 
-<img src="Videos/confusionMatrix.png" alt="Description" width="400">
+<img src="Videos/confusionMatrix.png" width="400">
 
 
 ## Final Outcome
 
 The final test involved making predictions in **real time** as the robot moved. Although there were some challenges—such as a slight delay in image transmission—the system overall performed well. The robot successfully classified most objects and responded appropriately based on the predicted class.
 
-Check out our videos to see the robot in action! The footage shows the robot navigating its environment, detecting obstacles, and making predictions on both familiar and unfamiliar objects.
+Check out our videos to see the robot in action! The footage shows the robot navigating its environment, detecting obstacles, and making predictions on unseen objects.
+
+(Turn on the sound! The robot plays a tune depending on the prediction.)
 
 ### Demos
 #### Stationary
@@ -222,11 +225,12 @@ https://github.com/user-attachments/assets/376f7941-3cc9-4a6a-8ec9-b7eb11ac5895
 #### Moving
 
 ### Building the robot
-![](Videos/servo.gif)
-![](Videos/part1.gif)
-![](Videos/part2.gif)
-![](Videos/part3.gif)
+<img src="Videos/servo.gif" width="400">
+<img src="Videos/part1.gif" width="400">
+<img src="Videos/part2.gif" width="400">
+<img src="Videos/part3.gif" width="400">
+
 
 ### Bloopers
-![](Videos/blooper.gif)
-![](Videos/blooper.jpg)
+<img src="Videos/blooper.gif" width="400">
+
