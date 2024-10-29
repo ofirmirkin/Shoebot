@@ -1,5 +1,5 @@
 # Shoebot
-![](Videos/VID_20241027_140903_exported_2504.jpg)
+![](Images/VID_20241027_140903_exported_2504.jpg)
 
 ## Project Overview
 
@@ -71,7 +71,7 @@ $Distance = \frac{1}{2}  (timeInMicroseconds \cdot 0.034)$
 
 This formula takes into account the speed of sound (340 m/s or 0.034 cm/μm), with the pulse traveling to the object and back.
 
-![](Videos/ultrasonic.jpg)
+![](Images/ultrasonic.jpg)
 
 Source: [Ultrasonic Sensor HC-SR04 and Arduino \- Complete Guide](https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/)
 
@@ -85,7 +85,7 @@ For seamless operation, the Arduino UNO and ESP32 CAM need to exchange informati
 
 They communicate using **RX-TX serial communication**, a method for back-and-forth data exchange. A serial bus consists of just two wires: one for sending data (TX) and another for receiving data (RX). Each device must have two dedicated pins, RX (receiver) and TX (transmitter), which are connected in a crossover configuration (the TX of one device to the RX of the other).
 
-![](Videos/RXTX.png)
+![](Images/RXTX.png)
 
 Source: [Serial Communication \- SparkFun Learn](https://learn.sparkfun.com/tutorials/serial-communication/wiring-and-hardware) 
 
@@ -180,7 +180,7 @@ The model was trained to classify images into **three categories**:
 * **Slippers**  
 * **None** (anything that isn’t a shoe or slipper, in which case the robot takes no action).
 
-<img src="Videos/classes.jpg" width="400">
+<img src="Images/classes.jpg" width="400">
 
 Here are the training hyperparameters:
 ```python
@@ -202,7 +202,7 @@ This augmentation process applies a series of transformations to each image to s
 
 Here’s an example of these transformations applied to one of the images:
 
-<img src="Videos/augmentation.png" width="400">
+<img src="Images/augmentation.png" width="400">
 
 
 Check out Albumentations’ [demos](https://huggingface.co/spaces/qubvel-hf/albumentations-demo) for a more detailed look at how these transforms work in practice.
@@ -210,7 +210,7 @@ Check out Albumentations’ [demos](https://huggingface.co/spaces/qubvel-hf/albu
 We applied image augmentation of the images taken with the ESP32. The final dataset includes approximately 750, 1100, 500 images for Shoes, Slippers and None respectively. 
 In consequence, even with the low-quality images from the ESP32, we achieved 93%$ F_1$ score or higher for each of the classes, as measured over ~360 test set images.
 
-<img src="Videos/confusionMatrix.png" width="400">
+<img src="Images/confusionMatrix.png" width="400">
 
 
 ## Final Outcome
