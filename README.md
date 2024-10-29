@@ -210,9 +210,9 @@ In consequence, even with the low-quality images from the ESP32, we achieved 93%
 
 ## Final Outcome
 
-The final test was making predictions **in real-time** while the robot was moving. There were a few challenges to overcome, including a slight delay when sending images, but overall, the system performed well. The robot successfully classified most objects and took appropriate actions based on the predicted class.
+The final test involved making predictions in **real time** as the robot moved. Although there were some challenges—such as a slight delay in image transmission—the system overall performed well. The robot successfully classified most objects and responded appropriately based on the predicted class.
 
-Check out our videos to see the robot in action!
+Check out our videos to see the robot in action! The footage shows the robot navigating its environment, detecting obstacles, and making predictions on both familiar and unfamiliar objects.
 
 ### Demos
 #### Stationary
