@@ -182,7 +182,7 @@ The model was trained to classify images into **three categories**:
 Here are the training hyperparameters:
 ```python
 batch_size = 32
-num_epochs = 3
+num_epochs = 5
 loss_fn = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.parameters(), lr=1e-4, weight_decay=1e-4)
 ```
