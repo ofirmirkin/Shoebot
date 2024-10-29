@@ -227,16 +227,11 @@ https://github.com/user-attachments/assets/376f7941-3cc9-4a6a-8ec9-b7eb11ac5895
 
 #### Moving
 
-https://github.com/user-attachments/assets/d33ab912-8be8-4f3d-89ff-b1d008833f0e
-
-https://github.com/user-attachments/assets/f4d8618b-5f19-450e-a8df-80e97b952389
-
 https://github.com/user-attachments/assets/ed99cd87-311e-40ca-a37d-084b377aa266
 
 https://github.com/user-attachments/assets/ed219a25-2deb-43ad-be14-4b306fc6a8bd
 
-https://github.com/user-attachments/assets/c5da1a10-d936-4660-8b81-ba4fc3d1f90d
-
+(More videos available in the [Videos](Videos) folder)
 
 ### Building the robot
 <img src="Videos/servo.gif" width="400">
