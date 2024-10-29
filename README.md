@@ -234,7 +234,8 @@ Check out our videos to see the robot in action! The footage shows the robot nav
 ### Demos
 (Turn on the sound! The robot plays a tune depending on the prediction.)
 #### Stationary
-https://github.com/user-attachments/assets/376f7941-3cc9-4a6a-8ec9-b7eb11ac5895
+
+https://github.com/user-attachments/assets/989e52c6-69aa-4ac2-920c-00b09cbddd62
 
 #### Moving
 
