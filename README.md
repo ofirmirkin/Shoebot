@@ -67,7 +67,7 @@ The obstacle detection is carried out using an **ultrasonic sensor**, which meas
 
 In our case, an object is considered an obstacle if it is less than 40 cm away from the robot. Here's the formula used to compute the distance:
 
-$Distance = \frac{1}{2}  (time\_in\_microseconds \cdot 0.034)$
+$Distance = \frac{1}{2}  (timeInMicroseconds \cdot 0.034)$
 
 This formula takes into account the speed of sound (340 m/s or 0.034 cm/μm), with the pulse traveling to the object and back.
 
