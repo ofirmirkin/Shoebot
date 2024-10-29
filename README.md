@@ -40,12 +40,12 @@ We used a laptop running a simple Flask server to process images sent from the E
 
 <table>
   <tr>
-    <td><img src="Videos/servo.gif" width="300"></td>
-    <td><img src="Videos/part1.gif" width="300"></td>
+    <td><img src="Videos/servo.gif" width="375"></td>
+    <td><img src="Videos/part1.gif" width="375"></td>
   </tr>
   <tr>
-    <td><img src="Videos/part2.gif" width="300"></td>
-    <td><img src="Videos/part3.gif" width="300"></td>
+    <td><img src="Videos/part2.gif" width="375"></td>
+    <td><img src="Videos/part3.gif" width="375"></td>
   </tr>
 </table>
 
