@@ -76,6 +76,9 @@ This formula takes into account the speed of sound (340 m/s or 0.034 cm/μm), wi
 Source: [Ultrasonic Sensor HC-SR04 and Arduino \- Complete Guide](https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/)
 
 
+https://github.com/user-attachments/assets/2f77e3ec-e54d-49d1-a996-a4c02aa44318
+
+
 ### Communication with ESP32
 
 For seamless operation, the Arduino UNO and ESP32 CAM need to exchange information continuously. The UNO notifies the ESP32 when an obstacle is detected, prompting it to take a picture for classification. After processing, the ESP32 sends its classification decision back to the UNO to inform the robot’s next steps.
@@ -223,6 +226,20 @@ Check out our videos to see the robot in action! The footage shows the robot nav
 https://github.com/user-attachments/assets/376f7941-3cc9-4a6a-8ec9-b7eb11ac5895
 
 #### Moving
+
+https://github.com/user-attachments/assets/d33ab912-8be8-4f3d-89ff-b1d008833f0e
+
+https://github.com/user-attachments/assets/f4d8618b-5f19-450e-a8df-80e97b952389
+
+https://github.com/user-attachments/assets/a7de9470-5cc2-4fb7-9199-e0fe05616885
+
+https://github.com/user-attachments/assets/ed219a25-2deb-43ad-be14-4b306fc6a8bd
+
+<iframe width="640" height="360" src="https://youtu.be/SbnuV94qoAw" frameborder="0" allowfullscreen></iframe>
+
+
+<iframe width="560" height="315" src="https://youtu.be/SbnuV94qoAw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ### Building the robot
 <img src="Videos/servo.gif" width="400">
