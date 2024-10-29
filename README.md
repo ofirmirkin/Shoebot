@@ -225,21 +225,36 @@ Check out our videos to see the robot in action! The footage shows the robot nav
 #### Stationary
 https://github.com/user-attachments/assets/376f7941-3cc9-4a6a-8ec9-b7eb11ac5895
 
+<video width="400" controls>
+  <source src="Videos/stationary_demo.mp4" type="video/mp4">
+</video>
+
 #### Moving
 
-https://github.com/user-attachments/assets/d33ab912-8be8-4f3d-89ff-b1d008833f0e
+<!-- https://github.com/user-attachments/assets/d33ab912-8be8-4f3d-89ff-b1d008833f0e
 
 https://github.com/user-attachments/assets/f4d8618b-5f19-450e-a8df-80e97b952389
 
 https://github.com/user-attachments/assets/a7de9470-5cc2-4fb7-9199-e0fe05616885
 
-https://github.com/user-attachments/assets/ed219a25-2deb-43ad-be14-4b306fc6a8bd
-
-<iframe width="640" height="360" src="https://youtu.be/SbnuV94qoAw" frameborder="0" allowfullscreen></iframe>
+https://github.com/user-attachments/assets/ed219a25-2deb-43ad-be14-4b306fc6a8bd -->
 
 
-<iframe width="560" height="315" src="https://youtu.be/SbnuV94qoAw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video width="400" controls>
+  <source src="Videos/shoes1.mp4" type="video/mp4">
+</video>
 
+<video width="400" controls>
+  <source src="Videos/slippers2.mp4" type="video/mp4">
+</video>
+
+<video width="400" controls>
+  <source src="Videos/shoes1.mp4" type="video/mp4">
+</video>
+
+<video width="400" controls>
+  <source src="Videos/slippers3.mp4" type="video/mp4">
+</video>
 
 ### Building the robot
 <img src="Videos/servo.gif" width="400">
