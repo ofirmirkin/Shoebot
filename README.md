@@ -177,7 +177,7 @@ The model was trained to classify images into **three categories**:
 * **Slippers**  
 * **None** (anything that isn’t a shoe or slipper, in which case the robot takes no action).
 
-![](Videos/classes.jpg)
+<img src="Videos/classes.jpg" alt="Description" width="400">
 
 Here are the training hyperparameters:
 ```python
@@ -206,7 +206,8 @@ Check out Albumentations’ [demos](https://huggingface.co/spaces/qubvel-hf/albu
 We applied image augmentation of the images taken with the ESP32. The final dataset includes approximately 750, 1100, 500 images for Shoes, Slippers and None respectively. 
 In consequence, even with the low-quality images from the ESP32, we achieved 93%$ F_1$ score or higher for each of the classes, as measured over ~360 test set images.
 
-![](Videos/confusionMatrix.png)
+<img src="Videos/confusionMatrix.png" alt="Description" width="400">
+
 
 ## Final Outcome
 
