@@ -231,9 +231,8 @@ The final test involved making predictions in **real time** as the robot moved. 
 
 Check out our videos to see the robot in action! The footage shows the robot navigating its environment, detecting obstacles, and making predictions on unseen objects.
 
-(Turn on the sound! The robot plays a tune depending on the prediction.)
-
 ### Demos
+(Turn on the sound! The robot plays a tune depending on the prediction.)
 #### Stationary
 https://github.com/user-attachments/assets/376f7941-3cc9-4a6a-8ec9-b7eb11ac5895
 
