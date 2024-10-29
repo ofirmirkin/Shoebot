@@ -36,6 +36,18 @@ We used a laptop running a simple Flask server to process images sent from the E
 * RGB led  
 * Resistors
 
+### Building the robot
+
+<table>
+  <tr>
+    <td><img src="Videos/servo.gif" width="400"></td>
+    <td><img src="Videos/part1.gif" width="400"></td>
+  </tr>
+  <tr>
+    <td><img src="Videos/part2.gif" width="400"></td>
+    <td><img src="Videos/part3.gif" width="400"></td>
+  </tr>
+</table>
 
 ## Movement Control: Arduino UNO
 
@@ -232,13 +244,6 @@ https://github.com/user-attachments/assets/ed99cd87-311e-40ca-a37d-084b377aa266
 https://github.com/user-attachments/assets/ed219a25-2deb-43ad-be14-4b306fc6a8bd
 
 (More videos available in the [Videos](Videos) folder)
-
-### Building the robot
-<img src="Videos/servo.gif" width="400">
-<img src="Videos/part1.gif" width="400">
-<img src="Videos/part2.gif" width="400">
-<img src="Videos/part3.gif" width="400">
-
 
 ### Bloopers
 <img src="Videos/blooper.gif" width="400">
