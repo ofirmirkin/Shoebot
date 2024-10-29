@@ -220,7 +220,7 @@ Here’s an example of these transformations applied to one of the images:
 Check out Albumentations’ [demos](https://huggingface.co/spaces/qubvel-hf/albumentations-demo) for a more detailed look at how these transforms work in practice.
 
 We applied image augmentation of the images taken with the ESP32. The final dataset includes approximately 750, 1100, 500 images for Shoes, Slippers and None respectively. 
-In consequence, even with the low-quality images from the ESP32, we achieved 93%$ F_1$ score or higher for each of the classes, as measured over ~360 test set images.
+In consequence, even with the low-quality images from the ESP32, we achieved 93% $F_1$ score or higher for each of the classes, as measured over ~360 test set images.
 
 <img src="Images/confusionMatrix.png" width="400">
 
