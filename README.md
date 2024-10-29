@@ -83,7 +83,7 @@ $Distance = \frac{1}{2}  (timeInMicroseconds \cdot 0.034)$
 
 This formula takes into account the speed of sound (340 m/s or 0.034 cm/μm), with the pulse traveling to the object and back.
 
-![](Images/ultrasonic.jpg)
+<img src="Images/ultrasonic.jpg" width="500">
 
 Source: [Ultrasonic Sensor HC-SR04 and Arduino \- Complete Guide](https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/)
 
