@@ -232,7 +232,12 @@ The final test involved making predictions in **real time** as the robot moved. 
 Check out our videos to see the robot in action! The footage shows the robot navigating its environment, detecting obstacles, and making predictions on unseen objects.
 
 ### Demos
-(Turn on the sound! The robot plays a tune depending on the prediction.)
+Turn up the sound! The robot responds with unique tunes and LED colors based on the prediction results:
+
+- **Shoe detected**: The robot activates an alarm sound, and its LED flashes red and blue.
+- **Slipper detected**: A cheerful melody plays and the LED turns green.
+- **No object detected**: No reaction occurs.
+
 #### Stationary
 
 https://github.com/user-attachments/assets/989e52c6-69aa-4ac2-920c-00b09cbddd62
