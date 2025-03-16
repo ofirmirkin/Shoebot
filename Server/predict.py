@@ -1,10 +1,7 @@
-from PIL import Image
 import torch
+from PIL import Image
 from torch import nn
-from torchvision import transforms, models
-import matplotlib.pyplot as plt
-import numpy as np
-
+from torchvision import models, transforms
 
 image_x, image_y = 240, 320
 classes = {0: "Shoes", 1: "Slippers", 2: "None"}

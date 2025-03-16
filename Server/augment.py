@@ -1,6 +1,5 @@
 import albumentations as A
 import cv2
-import numpy as np
 import os
 
 # Define a custom augmentation pipeline

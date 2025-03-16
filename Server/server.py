@@ -1,11 +1,10 @@
 import os
-from flask import Flask, request, jsonify
 from datetime import datetime
+
 import cv2
 import numpy as np
 import predict
-import logging
-from random import randrange
+from flask import Flask, jsonify, request
 
 # Define the Flask app
 app = Flask(__name__)
